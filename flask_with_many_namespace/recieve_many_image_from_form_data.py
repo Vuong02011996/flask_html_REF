@@ -10,7 +10,7 @@ ns = Api(blueprint)
 namespace = ns.namespace("identities")
 
 
-@namespace.route("/group_image", methods=["GET", "POST"])
+@namespace.route("/receive_list_image_from_form_data", methods=["GET", "POST"])
 class FindAll(Resource):
     # @auth.login_required
     def post(self):
