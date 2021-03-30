@@ -1,7 +1,7 @@
 from flask_cors import CORS
 from flask import Flask
 from flask_restx import Api
-from recieve_many_image_from_form_data import namespace as identity_namespace
+from post_image import namespace as identity_namespace
 import os
 from dotenv import load_dotenv
 from pathlib import Path  # Python 3.6+ only
